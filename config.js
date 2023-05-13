@@ -8,35 +8,35 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['525560066050', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],  
-  ['5212411719888', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215533827255', '💫 Mystic - Collaborator 7 💫', false],
-  ['593968585283'],
-  ['5219993404349'],
-  ['584125778026'],
-  ['5219991402134'],	
-  ['5219996125657']
+  ['56978812771', '⋇⋆✦⋆⋇Touch不安⋇⋆✦⋆⋇', true],
+  ['56927109131', '⚜ Ice - Collaborator 1 ✯', false],
+  ['xxxxxxxxxxx', '⚜ Ice - Collaborator 2 ✯', false],
+  ['xxxxxxxxxxx', '⚜ Ice - Collaborator 3 ✯', false],
+  ['xxxxxxxxxxx',  '⚜ Ice - Collaborator 4 ✯', false],
+  ['xxxxxxxxxxxx', '⚜ Ice - Collaborator 5 ✯', false],  
+  ['xxxxxxxxxxxx', '⚜ Ice - Collaborator 6 ✯', false],
+  ['xxxxxxxxxxxx', '⚜ Ice - Collaborator 7 ✯', false],
+  ['xxxxxxxxxxxx'],
+  ['xxxxxxxxxxxx'],
+  ['xxxxxxxxxxxx'],
+  ['xxxxxxxxxxxx'],	
+  ['xxxxxxxxxxxx']
 ] 
 
-global.suittag = ['5219993404349'] 
-global.prems = ['51995386439'] 
+global.suittag = ['56927109131'] 
+global.prems = ['56978812771'] 
 
-global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.packname = 'ଘ(˵╹-╹)━☆༉'
+global.author = '✯The Touch不安 - Bot✯'
+global.wm = '✯The Esdeath不安 - Bot✯'
+global.igfg = '✯The Esdeath不安 - Bot✯'
+global.wait = '*[❗] 𝘩𝘢𝘤𝘦𝘳𝘵𝘦 𝘦𝘴𝘱𝘦𝘳𝘢𝘳 𝘦𝘴 𝘮𝘪 𝘧𝘢𝘴𝘤𝘪𝘯𝘢𝘤𝘪𝘰́𝘯 ...*'
 
 
-global.openai_key = 'sk-0'
+global.openai_key = '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'
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
 
-global.openai_org_id = 'org-3'
+global.openai_org_id = 'org-fPFy3zAsC5IJ1ygGLTUCvP7e'
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
 
@@ -442,14 +442,14 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`
-global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ ✯The Esdeath不安 - Bot`
+global.gt = '✯The Esdeath不安 - Bot'
+global.mysticbot = '✯The Esdeath不安 - Bot'
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
-global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.waitt = '*[❗] 𝘩𝘢𝘤𝘦𝘳𝘵𝘦 𝘦𝘴𝘱𝘦𝘳𝘢𝘳 𝘦𝘴 𝘮𝘪 𝘧𝘢𝘴𝘤𝘪𝘯𝘢𝘤𝘪𝘰́𝘯  ...*'
+global.waittt = '*[❗] 𝘩𝘢𝘤𝘦𝘳𝘵𝘦 𝘦𝘴𝘱𝘦𝘳𝘢𝘳 𝘦𝘴 𝘮𝘪 𝘧𝘢𝘴𝘤𝘪𝘯𝘢𝘤𝘪𝘰́𝘯  ...*'
+global.waitttt = '*[❗] 𝘩𝘢𝘤𝘦𝘳𝘵𝘦 𝘦𝘴𝘱𝘦𝘳𝘢𝘳 𝘦𝘴 𝘮𝘪 𝘧𝘢𝘴𝘤𝘪𝘯𝘢𝘤𝘪𝘰́𝘯  ...*'
 global.nomorown = '5219993404349'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
